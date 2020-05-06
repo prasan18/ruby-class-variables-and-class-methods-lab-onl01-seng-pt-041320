@@ -1,5 +1,5 @@
 class Song 
-  
+  attr_accessor=
   def initiliaze(name,artist,genre)
     @name = name 
     @artist = artist
