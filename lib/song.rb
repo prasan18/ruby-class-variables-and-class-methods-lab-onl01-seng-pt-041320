@@ -1,12 +1,20 @@
 class Song 
-  attr_reader : name
-  attr_writer :name,:artist,:genre
-  @@count = 0
+  
   def initiliaze(name,artist,genre)
     @name = name 
     @artist = artist
     @genre = genre
   end
 
-    
+   class Album
+  @@album_count = 0 
+ 
+  def initialize
+    @@album_count += 1
+  end
+ 
+  def self.count
+    @@album_count
+  end
+end 
     
