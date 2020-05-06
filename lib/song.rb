@@ -1,20 +1,21 @@
 class Song 
-  attr_accessor=(name,)
+  attr_accessor=(:name,:artist,:genre)
   def initiliaze(name,artist,genre)
     @name = name 
     @artist = artist
     @genre = genre
   end
 
-   class Album
-  @@album_count = 0 
+   class Song
+     def song.count
+  @@count = 0 
  
   def initialize
-    @@album_count += 1
+    @@count += 1
   end
  
-  def self.count
-    @@album_count
+  def song.count
+    @@count
   end
 end 
     
