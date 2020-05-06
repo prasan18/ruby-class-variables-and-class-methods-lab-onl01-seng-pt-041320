@@ -54,5 +54,4 @@ a_rabess = Song.new("Arabess", "Habibi Watan", "Rai")
 cus_umak = Song.new("Cus Ummach", "Haifa Wehbe", "Rai")
 
 
-Song.genre_count
 
